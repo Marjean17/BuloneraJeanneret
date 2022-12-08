@@ -1,7 +1,7 @@
 import CartWidget from "../CartWidget/CartWidget";
 import "./NavBar.css";
 
-function NavBar(){
+function NavBar() {
   return (
     <nav className="ulNav">
       <ul className="ulNav">

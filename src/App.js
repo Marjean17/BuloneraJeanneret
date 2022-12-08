@@ -4,8 +4,6 @@ import NavBar from "./components/NavBar/NavBar";
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 import Fondo from "./img/fotoFondo.jpg";
 import Footer from "./components/Footer/Footer";
-import ItemCounter from "./components/ItemCounter/ItemCounter"
-import ItemList from "./components/ItemList/ItemList";
 
 function App() {
   return (
@@ -22,9 +20,6 @@ function App() {
           <main>
             <span>Desde hace mas 50 años proveyendo a la industria</span>
             <span>con la mayor variedad y el mejor precio</span>
-            <ItemCounter/>
-            <Item/>
-            <ItemList/>
             <img src={Fondo} alt="imagen de bulones"></img>
             <span>Si existe y no lo tenemos lo conseguimos. Consúltenos</span>
           </main>
