@@ -1,5 +1,24 @@
-.ulNav {
+.logo {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.nav-btn {
+  background-color: aliceblue;
+}
+
+
+.nav-center {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ulNav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   justify-content: space-around;
   align-items: center;
   width: 100%;
@@ -7,8 +26,10 @@
   gap: 1rem;
   position: sticky;
   top: 0px;
-  background-color: rgba(43, 37, 37, 0.7);
+  background-color: rgba(137, 134, 134, 0.7);
   z-index: 1020;
+  height: 5rem;
+  padding: 0 2rem ;
 }
 
 .aMenu {

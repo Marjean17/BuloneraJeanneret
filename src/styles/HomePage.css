@@ -1,0 +1,28 @@
+
+ .home {
+       display: inline-flex;
+       align-items: center;
+       justify-content: space-between;
+              margin: 1rem 2rem;
+       border: 1px solid rgb(214, 204, 204);
+       padding: 0 1.5rem;
+       font-size: 1.25rem;
+       height: 5%;
+       margin-top: 0.5rem;
+     }
+.home-title {
+    padding-left: 1.5rem;
+    font-size: 2.25rem;
+}
+
+/* .home-page-section-section-description {
+    padding: 0 1.5rem;
+    font-size: 1.25rem;
+    height: 55%;
+    margin-top: 0.5rem;
+} */
+
+.home-img {
+    width: cover;
+    position: center;
+}
