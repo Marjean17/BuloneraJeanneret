@@ -1,6 +1,6 @@
-import { tuercasArandList } from "./tuercasArandelasList";
-import { bulonRedList } from "./bulonRedondoList";
-import { bulonHexaList } from "./bulonHexagonalList";
+import { tuercasArandList } from "../../data/tuercasArandelasList";
+import { bulonRedList } from "../../data/bulonRedondoList";
+import { bulonHexaList } from "../../data/bulonHexagonalList";
 
 export const indexes = {
   "Tuercas, arandelas planas y Grower": [],

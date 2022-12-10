@@ -1,8 +1,8 @@
 import React from "react";
 import { tuercasArandList } from "../data/tuercasArandelasList";
 import { useParams } from "react-router-dom";
-import ItemCard from "../components/ItemCard/ItemCard";
-import { indexes } from "../data/indexes";
+import ItemCard from "../components/Item/Item";
+import { indexes } from "../components/ItemListContainer/ItemList";
 
 const TuercasArandPage = () => {
   const params = useParams();

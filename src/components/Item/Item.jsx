@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import CardTextBox from "./CardTextBox/CardTextBox";
+import CardTextBox from "./ItemDetail/ItemDetail";
 
-const ItemCard = ({ item, categoryId }) => {
+const Item = ({ item, categoryId }) => {
   return (
     <div className="card">
       <CardTextBox text={item.name} />
@@ -14,7 +14,7 @@ const ItemCard = ({ item, categoryId }) => {
         {item.description.substring(0, 50)}
         {item.description.length > 50 && "..."}
       </p>
-      <Link to={`/item/${categoryId}/${item.id}`}>
+      <Link to={`/item/${categoryId}/${item.itemId}`}>
         <button className="card-details-btn">Ver detalle del producto</button>
       </Link>
       <CardTextBox text={`Stock disponible ${item.quantity}`} place="footer" />
@@ -22,4 +22,4 @@ const ItemCard = ({ item, categoryId }) => {
   );
 };
 
-export default ItemCard;
+export default Item;

@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import ItemCard from "../components/ItemCard/ItemCard";
+import ItemCard from "../components/Item/Item";
 import { bulonRedList } from "../data/bulonRedondoList";
 
 const BulonRedPage = () => {

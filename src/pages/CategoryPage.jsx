@@ -1,8 +1,8 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import BooksPage from "./TuercasArandPage";
-import ElectronicPage from "./BulonRedPage";
-import VehiculePage from "./BulonHexaPage";
+import TuercasArandPage from "./TuercasArandPage";
+import BulonRedPage from "./BulonRedPage";
+import BulonHexaPage from "./BulonHexaPage";
 import HomePage from "./HomePage";
 
 const CategoryPage = () => {
@@ -10,11 +10,11 @@ const CategoryPage = () => {
 
   switch (params.categoryId) {
     case "Tuercas, arandelas planas y Grower":
-      return <BooksPage />;
+      return <TuercasArandPage />;
     case "Bulones con cabeza redonda":
-      return <ElectronicPage />;
+      return <BulonRedPage />;
     case "Bulones Hexagonales":
-      return <VehiculePage />;
+      return <BulonHexaPage />;
     default:
       return <HomePage />;
   }

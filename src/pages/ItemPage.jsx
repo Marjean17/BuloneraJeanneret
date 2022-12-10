@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useParams } from "react-router-dom";
-import { DB } from "../data/indexes";
+import { DB } from "../components/ItemListContainer/ItemList";
 import ItemCounter from "../components/ItemCounter/ItemCounter"
 
 const ItemPage = () => {
