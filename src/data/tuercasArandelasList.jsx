@@ -6,6 +6,7 @@ export const tuercasArandList = {
       name: 'Tuercas - 1/4"',
       img: "https://www.ropelato.com.ar/12230-large_default/tuerca-hexagonal-galvanizada-1-4.jpg",
       description: 'Tuercas en acero de calidad 8.8 de 1/4" de pulgada. El precio es por caja de 100 unidades',
+      price: 1800,
       quantity: 28,
     },
     {
@@ -13,6 +14,7 @@ export const tuercasArandList = {
       name: 'Tuercas - 5/16"',
       img: "https://www.ropelato.com.ar/12230-large_default/tuerca-hexagonal-galvanizada-1-4.jpg",
       description: 'Tuercas en acero de calidad 8.8 de 5/16" de pulgada. El precio es por caja de 100 unidades',
+      price: 2000,
       quantity: 36,
     },
     {
@@ -20,6 +22,7 @@ export const tuercasArandList = {
       name: 'Arandela plana - 1/4"',
       img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7pfSZcEfIW6upZQjFscZCSts0jSd3z3ZBjA&usqp=CAU",
       description: 'Arandelas planas en acero de calidad 8.8 de 1/4" de pulgada. El precio es por caja de 100 unidades',
+      price: 1300,
       quantity: 32,
     },
     {
@@ -27,6 +30,7 @@ export const tuercasArandList = {
       name: 'Arandela plana - 5/16"',
       img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7pfSZcEfIW6upZQjFscZCSts0jSd3z3ZBjA&usqp=CAU",
       description: 'Arandelas planas en acero de calidad 8.8 de 5/16" de pulgada. El precio es por caja de 100 unidades',
+      price: 1500,
       quantity: 25,
     },
     {
@@ -34,6 +38,7 @@ export const tuercasArandList = {
       name: 'Arandela Grower - 1/4"',
       img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-Rpcxsr5kSHgu7nbwB8T08deuhFvarU5QQQ&usqp=CAU",
       description: 'Arandelas Grower en acero de calidad 8.8 de 1/4" de pulgada. El precio es por caja de 100 unidades',
+      price: 1000,
       quantity: 23,
     },
     {
@@ -41,6 +46,7 @@ export const tuercasArandList = {
       name: 'Arandela Grower - 5/16"',
       img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-Rpcxsr5kSHgu7nbwB8T08deuhFvarU5QQQ&usqp=CAU",
       description: 'Arandelas Grower en acero de calidad 8.8 de 5/16" de pulgada. El precio es por caja de 100 unidades',
+      price: 1200,
       quantity: 31,
     },
   ],
