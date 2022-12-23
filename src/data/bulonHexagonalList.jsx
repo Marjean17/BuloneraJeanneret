@@ -6,6 +6,7 @@ export const bulonHexaList = {
       name: 'Bulon hexagonal - 1/4" x 1"',
       img: "https://www.maferbul.com.ar/dist/assets/images/subcategories/68/carousel/maferbul-Bul%C3%B3n-de-hierro-cabeza-hexagonal-en-pulgadas-grado-2.jpg",
       description: 'Bulones con cabeza hexagonal en acero de calidad 8.8 con 1/4" de pulgada de diámetro por 1" pulgada de largo. El precio es por caja de 100 unidades',
+      price: 2300,
       quantity: 28,
     },
     {
@@ -13,6 +14,7 @@ export const bulonHexaList = {
       name: 'Bulon hexagonal - 1/4" x 1 1/2"',
       img: "https://www.maferbul.com.ar/dist/assets/images/subcategories/68/carousel/maferbul-Bul%C3%B3n-de-hierro-cabeza-hexagonal-en-pulgadas-grado-2.jpg",
       description: 'Bulones con cabeza hexagonal en acero de calidad 8.8 con 1/4" de pulgada de diámetro por 1 1/2" pulgadas de largo. El precio es por caja de 100 unidades',
+      price: 2400,
       quantity: 36,
     },
     {
@@ -20,6 +22,7 @@ export const bulonHexaList = {
       name: 'Bulon hexagonal - 1/4" x 2"',
       img: "https://www.maferbul.com.ar/dist/assets/images/subcategories/68/carousel/maferbul-Bul%C3%B3n-de-hierro-cabeza-hexagonal-en-pulgadas-grado-2.jpg",
       description: 'Bulones con cabeza hexagonal en acero de calidad 8.8 con 1/4" de pulgada de diámetro por 2" pulgadas de largo. El precio es por caja de 100 unidades',
+      price: 2500,
       quantity: 32,
     },
     {
@@ -27,6 +30,7 @@ export const bulonHexaList = {
       name: 'Bulon hexagonal - 5/16" x 1"',
       img: "https://www.maferbul.com.ar/dist/assets/images/subcategories/68/carousel/maferbul-Bul%C3%B3n-de-hierro-cabeza-hexagonal-en-pulgadas-grado-2.jpg",
       description: 'Bulones con cabeza hexagonal en acero de calidad 8.8 con 5/16" pulgadas de diámetro por 1" pulgada de largo. El precio es por caja de 100 unidades',
+      price: 2350,
       quantity: 25,
     },
     {
@@ -34,6 +38,7 @@ export const bulonHexaList = {
       name: 'Bulon hexagonal - 5/16" x 1 1/2"',
       img: "https://www.maferbul.com.ar/dist/assets/images/subcategories/68/carousel/maferbul-Bul%C3%B3n-de-hierro-cabeza-hexagonal-en-pulgadas-grado-2.jpg",
       description: 'Bulones con cabeza hexagonal en acero de calidad 8.8 con 5/16" pulgadas de diámetro por 1 1/2" pulgadas de largo. El precio es por caja de 100 unidades',
+      price: 2450,
       quantity: 23,
     },
     {
@@ -41,6 +46,7 @@ export const bulonHexaList = {
       name: 'Bulon hexagonal - 5/16" x 2"',
       img: "https://www.maferbul.com.ar/dist/assets/images/subcategories/68/carousel/maferbul-Bul%C3%B3n-de-hierro-cabeza-hexagonal-en-pulgadas-grado-2.jpg",
       description: 'Bulones con cabeza hexagonal en acero de calidad 8.8 con 5/16" pulgadas de diámetro por 2" pulgadas de largo. El precio es por caja de 100 unidades',
+      price: 2550,
       quantity: 31,
     },
   ],
